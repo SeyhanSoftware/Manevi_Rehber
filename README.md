@@ -10,7 +10,7 @@
   ## 1. Veri Sorumlusu
 
   **Uygulama Adı:** Manevi Rehber
-  **İletişim:** yigitalp.syhn@gmail.com
+  **İletişim:** seyhanssoftware@gmail.com
 
   ---
 
@@ -71,7 +71,7 @@
   - Yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme
   - Verilerin silinmesini veya yok edilmesini isteme
 
-  Bu haklarınızı kullanmak için **yigitalp.syhn@gmail.com** adresine e-posta gönderebilirsiniz.
+  Bu haklarınızı kullanmak için **seyhanssoftware@gmail.com** adresine e-posta gönderebilirsiniz.
 
   ---
 
@@ -91,6 +91,6 @@
   ## 8. İletişim
 
   Gizlilik politikasına ilişkin sorularınız için:
-  📧 **yigitalp.syhn@gmail.com**
+  📧 **seyhanssoftware@gmail.com**
 
   ---
