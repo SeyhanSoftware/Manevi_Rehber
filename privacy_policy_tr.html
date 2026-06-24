@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Manevi Rehber — Gizlilik Politikası</title>
+  <style>
+    :root { --gold:#c9a04a; --bg:#0e1a12; --fg:#e9e6da; --muted:#a9b3a6; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--fg);
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      line-height:1.7; }
+    .wrap { max-width:760px; margin:0 auto; padding:28px 20px 64px; }
+    .lang { text-align:right; font-size:14px; margin-bottom:8px; }
+    .lang a { color:var(--gold); text-decoration:none; }
+    h1 { color:var(--gold); font-size:26px; margin:8px 0 4px; }
+    h2 { color:var(--gold); font-size:20px; margin:28px 0 8px;
+      border-top:1px solid rgba(201,160,74,.25); padding-top:18px; }
+    h3 { font-size:16px; margin:18px 0 6px; }
+    .updated { color:var(--muted); font-size:14px; margin-bottom:18px; }
+    a { color:var(--gold); }
+    blockquote { border-left:3px solid var(--gold); margin:16px 0;
+      padding:8px 14px; background:rgba(201,160,74,.07); color:var(--fg); }
+    code { background:rgba(255,255,255,.06); padding:1px 5px; border-radius:4px; }
+    ul { padding-left:22px; }
+    footer { margin-top:32px; color:var(--muted); font-size:14px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="lang"><a href="en/">English</a></div>
+
+    <h1>Manevi Rehber — Gizlilik Politikası</h1>
+    <p class="updated"><strong>Son güncelleme:</strong> 24 Haziran 2026</p>
+
+    <p>Bu gizlilik politikası, <strong>Manevi Rehber</strong> mobil uygulamasının ("Uygulama") kullanıcı verilerini nasıl işlediğini açıklar. Uygulama; namaz vakitleri, kıble yönü, Kuran-ı Kerim, dualar ve dini günler gibi içerikler sunar. Bu metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu (<strong>KVKK</strong>) ve Avrupa Genel Veri Koruma Tüzüğü (<strong>GDPR</strong>) gözetilerek hazırlanmıştır.</p>
+
+    <blockquote><strong>Önemli:</strong> Uygulamada hesap oluşturma, giriş yapma veya ad/e-posta gibi kimlik bilgisi verme zorunluluğu yoktur. Aşağıda açıklanan veriler dışında sizi doğrudan tanımlayan bilgi toplanmaz.</blockquote>
+
+    <h2>1) İşlenen Veriler ve Amaçları</h2>
+
+    <h3>a) Konum bilgisi</h3>
+    <ul>
+      <li><strong>Ne için:</strong> Namaz vakitlerini ve kıble yönünü bulunduğunuz konuma göre doğru hesaplamak için.</li>
+      <li><strong>Nasıl:</strong> Cihazınızın konum izniyle yaklaşık/kesin konumunuz alınır. Konumu kapatırsanız şehir araması ile elle de seçebilirsiniz.</li>
+      <li><strong>Üçüncü taraflara aktarım:</strong> Namaz vakitlerini hesaplamak için koordinatlarınız (enlem/boylam) <strong>Aladhan API</strong> (<code>api.aladhan.com</code>) hizmetine gönderilir. Şehir araması yaptığınızda aradığınız metin, şehir koordinatını bulmak için <strong>Open-Meteo Geocoding API</strong> (<code>open-meteo.com</code>) hizmetine gönderilir. Bu istekler hesap/kimlik bilgisiyle ilişkilendirilmez.</li>
+      <li><strong>Saklama:</strong> Seçilen şehrin koordinatları yalnızca cihazınızda saklanır; bizim sunucularımıza gönderilmez (kendi sunucumuz yoktur).</li>
+    </ul>
+
+    <h3>b) Reklam kimliği (Advertising ID) ve reklamlar</h3>
+    <ul>
+      <li>Uygulama, <strong>Google AdMob</strong> aracılığıyla reklam gösterir. Reklamların sunulması için cihazınızın reklam kimliği kullanılabilir.</li>
+      <li>Avrupa Ekonomik Alanı (AEA), İngiltere ve İsviçre kullanıcılarına, kişiselleştirilmiş reklam ve veri işleme için Google'ın onay ekranı (<strong>UMP</strong>) gösterilir; onay vermeyebilir veya kişiselleştirmeyi reddedebilirsiniz. Bu durumda kişiselleştirilmemiş reklam gösterilir.</li>
+      <li><strong>Premium</strong> (reklamsız) abonelik alındığında reklamlar gösterilmez.</li>
+    </ul>
+
+    <h3>c) Çökme (hata) kayıtları — Firebase Crashlytics</h3>
+    <ul>
+      <li>Uygulama kararlılığını artırmak için anonim çökme/teşhis verileri (cihaz modeli, işletim sistemi sürümü, hata yığını gibi teknik bilgiler) <strong>Google Firebase Crashlytics</strong>'e gönderilir. Bu kayıtlar sizi kişisel olarak tanımlamaz.</li>
+    </ul>
+
+    <h3>d) Kullanım analitiği — Firebase Analytics</h3>
+    <ul>
+      <li>Hangi ekranların kullanıldığı, özelliklerin ne sıklıkta kullanıldığı gibi toplu/anonim kullanım olayları <strong>Google Firebase Analytics</strong>'e gönderilir. Amaç, uygulamayı iyileştirmektir. Bu veriler kimliğinizle ilişkilendirilmez.</li>
+    </ul>
+
+    <h3>e) Abonelik / uygulama içi satın alma</h3>
+    <ul>
+      <li>Premium abonelik satın alımı <strong>Google Play Faturalandırma</strong> (Google Play Billing) üzerinden yürütülür. Ödeme/kart bilgileriniz Google tarafından işlenir; Uygulama bu bilgileri görmez veya saklamaz. Uygulama yalnızca aboneliğin etkin olup olmadığını cihazda yerel olarak tutar.</li>
+    </ul>
+
+    <h3>f) Bildirimler</h3>
+    <ul>
+      <li>Namaz vakti ve özel gün hatırlatmaları cihazınızda yerel olarak planlanır; bunun için veri toplanmaz veya paylaşılmaz.</li>
+    </ul>
+
+    <h3>g) İndirilen içerik (çevrimdışı Kuran sesi/metni)</h3>
+    <ul>
+      <li>Seçtiğiniz Kuran ses dosyaları ve metin sayfaları, çevrimdışı kullanım için cihazınıza indirilir ve yalnızca cihazınızda saklanır.</li>
+    </ul>
+
+    <h2>2) Üçüncü Taraf Hizmetleri</h2>
+    <p>Uygulama aşağıdaki üçüncü taraf hizmetlerini kullanır. Bu hizmetlerin kendi gizlilik politikaları geçerlidir:</p>
+    <ul>
+      <li><strong>Google AdMob</strong> (reklamlar) — <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+      <li><strong>Google Firebase</strong> Analytics ve Crashlytics — <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></li>
+      <li><strong>Aladhan API</strong> (namaz vakitleri) — <code>api.aladhan.com</code></li>
+      <li><strong>Open-Meteo Geocoding</strong> (şehir arama) — <code>open-meteo.com</code></li>
+      <li><strong>EveryAyah.com</strong> (Kuran ses kayıtları)</li>
+      <li><strong>AlQuran.cloud API</strong> (Kuran metni ve arama)</li>
+      <li><strong>GitHub Pages</strong> (sürüm/güncelleme kontrolü) — <code>seyhansoftware.github.io</code></li>
+    </ul>
+    <p>Tüm ağ iletişimi <strong>HTTPS</strong> (şifreli bağlantı) üzerinden yapılır.</p>
+
+    <h2>3) Verilerin Saklanması ve Silinmesi</h2>
+    <ul>
+      <li>Ayarlar, seçilen şehir, indirilen içerik ve önbellek yalnızca cihazınızda saklanır. Uygulamayı kaldırdığınızda veya cihaz ayarlarından uygulama verilerini temizlediğinizde bu veriler silinir.</li>
+      <li>İndirilen Kuran içeriğini uygulama içindeki <strong>"Çevrimdışı Kuran"</strong> bölümünden de silebilirsiniz.</li>
+      <li>Reklam, analitik ve çökme verileri, ilgili Google hizmetlerinin saklama politikalarına tabidir.</li>
+      <li>Sunucu tarafında bir hesabınız bulunmadığından, sunucularımızda silinecek kişisel veriniz yoktur.</li>
+    </ul>
+
+    <h2>4) Çocukların Gizliliği</h2>
+    <p>Uygulama 13 yaşın altındaki çocuklara yönelik değildir ve reklam ile uygulama içi satın alma içerir. Bilerek çocuklardan kişisel veri toplanmaz.</p>
+
+    <h2>5) Haklarınız</h2>
+    <p>KVKK'nın 11. maddesi ve GDPR kapsamında; kişisel verilerinizin işlenip işlenmediğini öğrenme, bilgi talep etme, düzeltilmesini, silinmesini veya yok edilmesini isteme, işlemeye itiraz etme ve ilgili mevzuatın tanıdığı diğer haklara sahipsiniz. Bu hakları kullanmak için aşağıdaki e-posta adresinden bize ulaşabilirsiniz. Reklam kişiselleştirme tercihinizi uygulama içindeki onay ekranından (ve cihazın reklam kimliği ayarlarından) istediğiniz zaman değiştirebilirsiniz.</p>
+
+    <h2>6) Gerekli İzinler</h2>
+    <ul>
+      <li><strong>Konum:</strong> Namaz vakitleri ve kıble için.</li>
+      <li><strong>Bildirimler:</strong> Vakit ve özel gün hatırlatmaları için.</li>
+      <li><strong>Tam zamanlı alarm:</strong> Hatırlatmaların doğru saatte çalması için.</li>
+      <li><strong>İnternet:</strong> İçerik ve vakitlerin çevrimiçi alınması için.</li>
+      <li><strong>Açılışta başlatma:</strong> Cihaz yeniden başladığında hatırlatmaların yeniden kurulması için.</li>
+    </ul>
+
+    <h2>7) Politika Değişiklikleri</h2>
+    <p>Bu politika zaman zaman güncellenebilir. Önemli değişikliklerde bu sayfadaki <strong>"Son güncelleme"</strong> tarihi yenilenir.</p>
+
+    <h2>8) İletişim</h2>
+    <p>Sorularınız ve veri talepleriniz için:<br />
+    <strong>E-posta:</strong> <a href="mailto:seyhanssoftware@gmail.com">seyhanssoftware@gmail.com</a></p>
+
+    <footer>© 2026 Manevi Rehber</footer>
+  </div>
+</body>
+</html>
